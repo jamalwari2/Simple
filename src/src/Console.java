@@ -1,4 +1,4 @@
-public class Console {
+public class Console implements Games{
     private String manufacture;
     private String model;
     private String screenResolution;
@@ -31,5 +31,10 @@ public class Console {
         this.manufacture = manufacture;
         this.model = model;
         this.screenResolution = screenResolution;
+    }
+
+    @Override
+    public void playing() {
+        System.out.println("Game Loaded");
     }
 }
