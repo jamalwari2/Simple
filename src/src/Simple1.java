@@ -14,6 +14,15 @@ public class Simple1 {
         System.out.println("Manufacture: "+phone.getManufacture());
         System.out.println("Model: "+phone.getModel());
         System.out.println("Screen Size: "+phone.getScreenSize());
+        System.out.println();
+
+
+        Console console1 = new Console("Sony", "Playstation 5", "4K 120Hz");
+
+        System.out.println("Console Information: ");
+        System.out.println("Manufacture: "+ console1.getManufacture());
+        System.out.println("Model: "+ console1.getModel());
+        System.out.println("Screen Resolution: "+ console1.getScreenResolution());
 
 
     }
