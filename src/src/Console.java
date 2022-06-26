@@ -37,4 +37,12 @@ public class Console implements Games{
     public void playing() {
         System.out.println("Game Loaded");
     }
+    
+    public boolean isPlaying(boolean playing) {
+    	if(playing == true) {
+    		return true;
+    	}else {
+    		retrun false;
+    	}
+    }
 }
