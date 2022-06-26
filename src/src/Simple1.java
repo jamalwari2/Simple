@@ -8,6 +8,7 @@ public class Simple1 {
         phone.setManufacture("Apple");
         phone.setModel("13 Pro Max");
         phone.setScreenSize("7 inch");
+        System.out.println("Bluetooth is connected: "+phone.connected(true));
 
         System.out.println("Phone requested is : ");
 
