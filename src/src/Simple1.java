@@ -24,6 +24,14 @@ public class Simple1 {
         System.out.println("Model: "+ console1.getModel());
         System.out.println("Screen Resolution: "+ console1.getScreenResolution());
 
+        System.out.println();
+
+        PC pc = new PC("HP","hje22323", "4K 60FPS");
+
+        System.out.println("PC: ");
+        System.out.println("Manufacture: "+ pc.getManufacture());
+        System.out.println("Model: "+ pc.getModel());
+        System.out.println("Screen Resolution: "+ pc.getScreenResolution());
 
     }
 }
