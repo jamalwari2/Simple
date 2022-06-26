@@ -1,4 +1,4 @@
-public class Phone {
+public class Phone implements Headphones{
     private String manufacture;
     private String model;
     private String screenSize;
@@ -35,4 +35,26 @@ public class Phone {
     public void setScreenSize(String screenSize) {
         this.screenSize = screenSize;
     }
+
+
+    @Override
+    public boolean connected(boolean isConnected) {
+        if (isConnected == true){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    @Override
+    public void volumeUp() {
+        System.out.println("Volume Up");
+    }
+
+    @Override
+    public void volumeDown() {
+        System.out.println("Volume Down");
+    }
+
+
 }
