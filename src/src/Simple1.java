@@ -4,6 +4,17 @@ public class Simple1 {
         DoSomething doSomething = new DoSomething();
         doSomething.DoSomething();
 
+        Phone phone =  new Phone();
+        phone.setManufacture("Apple");
+        phone.setModel("13 Pro Max");
+        phone.setScreenSize("7 inch");
+
+        System.out.println("Phone requested is : ");
+
+        System.out.println("Manufacture: "+phone.getManufacture());
+        System.out.println("Model: "+phone.getModel());
+        System.out.println("Screen Size: "+phone.getScreenSize());
+
 
     }
 }
